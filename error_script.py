@@ -12,7 +12,7 @@ API_URL = "https://deals-dev.innocode.no/api/v1/newspapers/71/customers?filter%5
 HEADERS = {
     "Authorization": os.environ.get("API_TOKEN"),  # just the token
     "Admin-Token": os.environ.get("ADMIN_TOKEN"),
-    "Newspaper_Token": os.environ.get("NEWSPAPER_TOKEN"),
+    "Newspaper-Token": os.environ.get("NEWSPAPER_TOKEN"),
     "Accept": "application/json"
 }
 
